@@ -12,6 +12,8 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap-responsive.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/normalize.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css">
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.6.2.min.js"></script>
