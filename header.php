@@ -17,6 +17,22 @@
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/normalize.css">
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/style.css">
         <script src="<?php bloginfo('template_url') ?>/js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <?php 
+
+            echo "
+
+                <script type=\"text/javascript\">
+
+                    templateUrl = '" . get_bloginfo('template_url') . "/';
+                    blogUrl = '" . get_bloginfo('url') . "/';
+
+                </script>
+
+            ";
+
+        ?>
+
     </head>
     <body>
         <!--[if lt IE 7]>

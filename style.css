@@ -372,6 +372,33 @@ h1.logo
     border-top: 1px solid white;
 }
 
+.animado-02-in-out
+{
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+.animado-04-in-out
+{
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+    -ms-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+}
+
+.animado-06-in-out
+{
+    -webkit-transition: 0.6s all ease-in-out;
+    -moz-transition: 0.6s all ease-in-out;
+    -o-transition: 0.6s all ease-in-out;
+    -ms-transition: 0.6s all ease-in-out;
+    transition: 0.6s all ease-in-out;
+}
+
 #instrucao
 {
     font-family: "Din", "Arial Narrow", sans-serif;
@@ -387,10 +414,9 @@ h1.logo
     width: 658px;
     height: 491px;
     padding: 0;
-    margin: 0 auto;
-    background: url('img/sentidosdaluz-mapa.png') no-repeat center black;
+    background: url('img/sentidosdaluz-mapa.png') no-repeat center;
     background-size: contain;
-    margin-bottom: 50px;
+    margin: 30px auto 30px;
     position: relative;
 }
 
@@ -398,276 +424,341 @@ h1.logo
 {
     text-indent: -9999px;
     display: block;
+    background: url('img/sentidosdaluz-plus.png') no-repeat center;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    z-index: 10;
+
 }
 
-#menu-principal ul li #ac
+#menu-principal ul #rn a,
+#menu-principal ul #pb a,
+#menu-principal ul #pe a,
+#menu-principal ul #al a,
+#menu-principal ul #se a
 {
-    background: url('img/sentidosdaluz-ac-iluminado.png') no-repeat center;
+    padding: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#menu-principal ul #ac
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 177px;
     height: 90px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 92px;
+    left: -28px;
 }
 
-#menu-principal ul li #al
+#menu-principal ul #ac a
 {
-    background: url('img/sentidosdaluz-al-iluminado.png') no-repeat center;
+    margin-top: -20px;
+    padding-top: 0;
+}
+
+#menu-principal ul #al
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 97px;
     height: 64px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 109px;
+    left: 580px;
 }
 
-#menu-principal ul li #ap
+#menu-principal ul #al a
 {
-    background: url('img/sentidosdaluz-ap-iluminado.png') no-repeat center;
+    margin-left: 0;
+}
+
+#menu-principal ul #ap
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 128px;
     height: 98px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -19px;
+    left: 302px;
 }
 
-#menu-principal ul li #am
+#menu-principal ul #ap a
 {
-    background: url('img/sentidosdaluz-am-iluminado.png') no-repeat center;
+    margin-left: -22px;
+}
+
+#menu-principal ul #am
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 376px;
     height: 177px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -6px;
+    left: -37px;
 }
 
-#menu-principal ul li #ba
+#menu-principal ul #ba
 {
-    background: url('img/sentidosdaluz-ba-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 219px;
     height: 166px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 96px;
+    left: 429px;
 }
 
-#menu-principal ul li #ce
+#menu-principal ul #ce
 {
-    background: url('img/sentidosdaluz-ce-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 118px;
     height: 102px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 45px;
+    left: 517px;
 }
 
-#menu-principal ul li #df
+#menu-principal ul #df
 {
-    background: url('img/sentidosdaluz-df-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 65px;
     height: 59px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 171px;
+    left: 412px;
 }
 
-#menu-principal ul li #es
+#menu-principal ul #es
 {
-    background: url('img/sentidosdaluz-es-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 88px;
     height: 92px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 202px;
+    left: 522px;
 }
 
-#menu-principal ul li #go
+#menu-principal ul #go
 {
-    background: url('img/sentidosdaluz-go-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 189px;
     height: 127px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 144px;
+    left: 315px;
 }
 
-#menu-principal ul li #ma
+#menu-principal ul #ma
 {
-    background: url('img/sentidosdaluz-ma-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 159px;
     height: 144px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 25px;
+    left: 404px;
 }
 
-#menu-principal ul li #mt
+#menu-principal ul #ma a
 {
-    background: url('img/sentidosdaluz-mt-iluminado.png') no-repeat center;
+    margin-top: -40px;
+}
+
+#menu-principal ul #mt
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 262px;
     height: 174px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 83px;
+    left: 170px;
 }
 
-#menu-principal ul li #ms
+#menu-principal ul #ms
 {
-    background: url('img/sentidosdaluz-ms-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 189px;
     height: 142px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 187px;
+    left: 227px;
 }
 
-#menu-principal ul li #mg
+#menu-principal ul #mg
 {
-    background: url('img/sentidosdaluz-mg-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 263px;
     height: 161px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 155px;
+    left: 350px;
 }
 
-#menu-principal ul li #pa
+#menu-principal ul #pa
 {
-    background: url('img/sentidosdaluz-pa-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 282px;
     height: 178px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: 220px;
 }
 
-#menu-principal ul li #pb
+#menu-principal ul #pb
 {
-    background: url('img/sentidosdaluz-pb-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 118px;
     height: 70px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 80px;
+    left: 565px;
 }
 
-#menu-principal ul li #pr
+#menu-principal ul #pb a
 {
-    background: url('img/sentidosdaluz-pr-iluminado.png') no-repeat center;
+    margin-left: 0;
+}
+
+#menu-principal ul #pr
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 173px;
     height: 108px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 252px;
+    left: 292px;
 }
 
-#menu-principal ul li #pe
+#menu-principal ul #pe
 {
-    background: url('img/sentidosdaluz-pe-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 164px;
     height: 72px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 90px;
+    left: 524px;
 }
 
-#menu-principal ul li #pi
+#menu-principal ul #pi
 {
-    background: url('img/sentidosdaluz-pi-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 150px;
     height: 133px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 44px;
+    left: 441px;
 }
 
-#menu-principal ul li #rj
+#menu-principal ul #pi a
 {
-    background: url('img/sentidosdaluz-rj-iluminado.png') no-repeat center;
+    margin-top: -23px;
+    margin-left: -15px;
+}
+
+#menu-principal ul #rj
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 121px;
     height: 78px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 240px;
+    left: 467px;
 }
 
-#menu-principal ul li #rn
+#menu-principal ul #rn
 {
-    background: url('img/sentidosdaluz-rn-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 107px;
     height: 68px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 69px;
+    left: 570px;
 }
 
-#menu-principal ul li #rs
+#menu-principal ul #rn a
 {
-    background: url('img/sentidosdaluz-rs-iluminado.png') no-repeat center;
+    margin-left: -25px;
+}
+
+#menu-principal ul #rs
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 201px;
     height: 153px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 308px;
+    left: 238px;
 }
 
-#menu-principal ul li #ro
+#menu-principal ul #ro
 {
-    background: url('img/sentidosdaluz-ro-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 174px;
     height: 116px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 91px;
+    left: 90px;
 }
 
-#menu-principal ul li #rr
+#menu-principal ul #rr
 {
-    background: url('img/sentidosdaluz-rr-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 142px;
     height: 108px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -27px;
+    left: 144px;
 }
 
-#menu-principal ul li #sc
+#menu-principal ul #sc
 {
-    background: url('img/sentidosdaluz-sc-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 154px;
     height: 99px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 297px;
+    left: 306px;
 }
 
-#menu-principal ul li #sp
+#menu-principal ul #sc a
 {
-    background: url('img/sentidosdaluz-sp-iluminado.png') no-repeat center;
+    margin-top: -34px;
+    margin-left: -10px;
+}
+
+#menu-principal ul #sp
+{
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 212px;
     height: 123px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 218px;
+    left: 320px;
 }
 
-#menu-principal ul li #se
+#menu-principal ul #se
 {
-    background: url('img/sentidosdaluz-se-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 74px;
     height: 88px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 105px;
+    left: 583px;
 }
 
-#menu-principal ul li #to
+#menu-principal ul #to
 {
-    background: url('img/sentidosdaluz-to-iluminado.png') no-repeat center;
+    background: url('img/sentidosdaluz-space.gif') no-repeat center;
     width: 137px;
     height: 149px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 62px;
+    left: 362px;
 }
 
 #menu-secundario ul
