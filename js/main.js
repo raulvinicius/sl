@@ -2,6 +2,10 @@ $(document).ready(
 	function()
 	{
 
+		$('#menu-principal ul li a').tooltip({
+			html: true
+		});
+
 		$('#menu-principal ul li a').hover(function()
 		{
 			console.log( $( this ).closest( 'li' ).attr( 'id' ) )
