@@ -351,7 +351,7 @@ textarea {
 
 body
 {
-    background: url('img/sentidosdaluz-bg.jpg') no-repeat center #001020;
+    background: url('img/sentidosdaluz-bg.jpg') no-repeat center #001020 fixed;
     background-size: cover;
     color: white;
 }
@@ -863,3 +863,189 @@ h1.logo
     text-transform: uppercase;
     color: white;
 }
+
+
+
+
+
+
+/*GALERIA DE HISTORIAS*/
+
+#galeria-historias .logo
+{
+    font-size: 142px;
+    text-align: right;
+    background: url('img/sentidosdaluz-blue-70.png');
+    line-height: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+#galeria-historias .wrap-voltar
+{
+    background: url('img/sentidosdaluz-blue-70.png');
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Din", "Arial Narrow", sans-serif; 
+    font-size: 16px;
+    color: white;
+}
+
+#galeria-historias .wrap-voltar span
+{
+    color: #8d939a;
+    margin-right: 5px;
+}
+
+#galeria-historias .wrap-voltar a
+{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#galeria-historias .menu-galerias
+{
+    background: url('img/sentidosdaluz-blue-x.png');
+    font-family: 'Din', 'Arial  Narrow', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#galeria-historias .menu-galerias ul li,
+#galeria-historias .menu-galerias ul li a
+{
+    display: inline;
+}
+
+#galeria-historias .menu-galerias ul li:after
+{
+    content: '/';
+    margin: 0 20px;
+}
+
+#galeria-historias .menu-galerias ul li:last-child:after
+{
+    content: '';
+    margin: 0 20px 0 0;
+}
+
+#galeria-historias #coluna-vazia
+{
+    height: 340px;
+    background: url('img/sentidosdaluz-blue-70.png');
+}
+
+#galeria-historias #nome-idade
+{
+    border-bottom: 1px solid white;
+}
+
+#galeria-historias #nome-idade h2
+{
+    font-family: 'BeltaLig', 'Arial Narrow', sans-serif;
+    font-size: 56px;
+    display: inline;
+    font-weight: lighter;
+}
+
+#galeria-historias #nome-idade span
+{
+    font-family: 'Din', 'Arial Narrow', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#galeria-historias #menu-pontos ul
+{
+    padding: 0;
+}
+
+#galeria-historias #menu-pontos ul li a
+{
+    margin-right: 40px;
+    padding: 5px 10px;
+}
+
+#galeria-historias #menu-pontos ul li a:hover
+{
+    color: #001b30;
+    background: rgba(255,255,255,0.6);
+    border-radius: 3px;
+}
+
+#galeria-historias #menu-pontos ul li,
+#galeria-historias #menu-pontos ul li a
+{
+    display: inline;
+}
+
+#galeria-historias #menu-pontos
+{
+    font-family: 'BeltaReg', 'Arial Narrow', sans-serif;
+    font-size: 30px;
+}
+
+#galeria-historias #wrap-video
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+#galeria-historias #wrap-video iframe,
+#galeria-historias #wrap-video object,
+#galeria-historias #wrap-video embed 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#galeria-historias #outras-historias
+{
+    background: url('img/sentidosdaluz-blue-70.png');
+}
+
+#galeria-historias #outras-historias h2
+{
+    font-family: "BeltaLig", "Arial Narrow", sans-serif;
+    font-size: 56px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+#galeria-historias #outras-historias ul
+{
+    padding-bottom: 50px;
+}
+
+#galeria-historias #outras-historias ul li
+{
+    list-style: none;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+}
+
+#galeria-historias #outras-historias ul li:hover
+{
+    background: url('img/sentidosdaluz-blue-70.png');
+}
+
+#galeria-historias #outras-historias ul li:hover img
+{
+    margin-left: 10px;
+}
+
+#galeria-historias #outras-historias ul li a q
+{
+    font-family: "Din", "Arial Narrow", sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+/*FIM GALERIA DE HISTORIAS*/
