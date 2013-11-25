@@ -22,8 +22,7 @@
 
 						<div class="row-fluid">
 							<div class="wrap-voltar span12">
-								<?php $cat = get_category_by_slug( get_query_var('category_name') ); ?>
-								<span><?php echo $cat->name; ?></span> > <a href="<?php bloginfo('url') ?>">Voltar para o mapa</a>
+								<span><?php echo single_cat_title( '', false ); ?></span> > <a href="<?php bloginfo('url') ?>">Voltar para o mapa</a>
 							</div>
 						</div>
 
@@ -34,7 +33,7 @@
 								<ul>
 
 									<li><a>Galeria de Histórias</a></li>
-									<li><a href="<?php bloginfo('url') ?>/galeria-dualista/<?php echo get_query_var('category_name') ?>">Galeria Dualista</a></li>
+									<li><a href="<?php bloginfo('url') ?>/galeria-dualista">Galeria Dualista</a></li>
 
 								</ul>
 

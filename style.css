@@ -1006,6 +1006,11 @@ h1.logo
     height: 100%;
 }
 
+#galeria-historias #wrap-texto
+{
+    margin-bottom: 70px;
+}
+
 #galeria-historias #outras-historias
 {
     background: url('img/sentidosdaluz-blue-70.png');

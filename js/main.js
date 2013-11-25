@@ -2,8 +2,6 @@ $(document).ready(
 	function()
 	{
 
-		resizeVideo();
-
 		$('#menu-principal ul li a').tooltip({
 			html: true
 		});
@@ -24,21 +22,6 @@ $(document).ready(
 
 		})
 
-	    $(window).resize(function() 
-	    {
-
-	    	resizeVideo();
-
-	    })
-
-
 	}
 );
 
-
-function resizeVideo()
-{
-	console.log( $('#galeria-historias #video'). );
-	    // obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-
-}
