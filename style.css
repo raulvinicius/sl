@@ -397,6 +397,11 @@ h1.logo
     transition: 0.6s all ease-in-out;
 }
 
+.wrap-texto
+{
+    margin-bottom: 70px;
+}
+
 #instrucao
 {
     font-family: "Din", "Arial Narrow", sans-serif;
@@ -920,6 +925,16 @@ h1.logo
     display: inline;
 }
 
+#galeria-historias .menu-galerias ul li a[href^="http"]
+{
+    color: #8d939a;
+}
+
+#galeria-historias .menu-galerias ul li a[href^="http"]:hover
+{
+    color: white;
+}
+
 #galeria-historias .menu-galerias ul li:after
 {
     content: '/';
@@ -967,6 +982,9 @@ h1.logo
 {
     margin-right: 40px;
     padding: 5px 10px;
+    opacity: 0;
+    filter: alpha( opacity=100 );
+    cursor: pointer;
 }
 
 #galeria-historias #menu-pontos ul li a:hover
@@ -1006,11 +1024,6 @@ h1.logo
     height: 100%;
 }
 
-#galeria-historias #wrap-texto
-{
-    margin-bottom: 70px;
-}
-
 #galeria-historias #outras-historias
 {
     background: url('img/sentidosdaluz-blue-70.png');
@@ -1021,7 +1034,7 @@ h1.logo
     font-family: "BeltaLig", "Arial Narrow", sans-serif;
     font-size: 56px;
     font-weight: lighter;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 #galeria-historias #outras-historias ul
@@ -1032,6 +1045,7 @@ h1.logo
 #galeria-historias #outras-historias ul li
 {
     list-style: none;
+    padding-left: 5px;
     padding-top: 20px;
     border-bottom: 1px solid white;
 }
