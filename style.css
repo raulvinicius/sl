@@ -938,12 +938,14 @@ h1.logo
     background: url('img/sentidosdaluz-blue-70.png');
 }
 
-#galeria-historias #nome-idade
+#galeria-historias #nome-idade,
+#galeria-historias #title-wrap-dualista
 {
     border-bottom: 1px solid white;
 }
 
-#galeria-historias #nome-idade h2
+#galeria-historias #nome-idade h2,
+#galeria-historias #title-wrap-dualista h2
 {
     font-family: 'BeltaLig', 'Arial Narrow', sans-serif;
     font-size: 56px;
@@ -1054,3 +1056,44 @@ h1.logo
 }
 
 /*FIM GALERIA DE HISTORIAS*/
+
+
+
+/*GALERIA DUALISTA*/
+
+#galeria-historias #title-wrap-dualista
+{
+    margin-top: 75px;
+}
+
+#galeria-historias #wrap-dualista
+{
+    margin-top: 50px;
+    padding-bottom: 170px;
+}
+
+#galeria-historias #wrap-dualista #seta-esquerda img,
+#galeria-historias #wrap-dualista #seta-direita img
+{
+    margin: 155px auto;
+    display: block;
+}
+
+#galeria-historias #wrap-dualista figure img
+{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#galeria-historias #wrap-dualista figure figcaption
+{
+    text-align: center;
+    padding: 0 5.982905982905983%;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Arial;
+}
+
+/*FIM GALERIA DUALISTA*/
