@@ -10,34 +10,13 @@
 
 		<?php 
 
+		var_dump( get_query_var('p') );
+
+
 			$cat = get_category_by_slug( get_query_var('category_name') );
-
-			$pSlug = split( '/', $_SERVER['REQUEST_URI'] );
-			$homeHistoria = true;
-		
-		    if ( count( $pSlug ) > 5 ) :
-
-		    	$homeHistoria = false;
-
-				$pSlug = $pSlug[ count( $pSlug ) - 2 ];
-
-			    $loop = new WP_Query(
-			        array(
-			            'name' => $pSlug,
-			            'category_name' => $cat->slug,
-			            'post_type' => 'historia'
-			        )
-			    );
-
-
-		    else :
-
-				$args = array( 'post_type' => 'historia', 'category_name' => $cat->slug );
-				$loop = new WP_Query( $args );
-
-			endif;
-
-		    $loop->the_post();
+			$args = array( 'post_type' => 'historia', 'category_name' => $cat->slug );
+			$loop = new WP_Query( $args );
+			$loop->the_post();
 
 			$nome = get_the_title();
 			$idade =  get_field('idade', $post->ID);
@@ -53,6 +32,8 @@
 			$situacaoUrbana =  get_field('situacao_urbana', $post->ID);
 			$estetico =  get_field('estetico', $post->ID);
 			$transcricao =  get_field('transcricao', $post->ID);
+
+			wp_reset_postdata();
 
 			 echo "
 
@@ -201,7 +182,7 @@
 
 					<div class="row-fluid">
 
-						<div class="wrap-texto span12">
+						<div id="wrap-texto" class="span12">
 
 							<h2><?php echo $manchete ?></h2>
 
@@ -228,16 +209,6 @@
 							<ul>
 
 								<?php 
-
-								echo $post->ID;
-
-								    if ( !$homeHistoria ) :
-
-										$args = array( 'post_type' => 'historia', 'category_name' => $cat->slug, 'post__not_in' => array( $post->ID ) );
-										$loop = new WP_Query( $args );
-
-									endif;
-
 
 									while ( $loop->have_posts() ) : $loop->the_post();
 
